@@ -103,9 +103,43 @@ input[type=checkbox]:checked+label:before {
   border-radius: 0;
   margin: 0 15px 5px 5px;
 }
-.delete{
+
+.delete {
   color: red;
   font-weight: 900;
   font-size: large;
   width: 30%;
+}
+
+@media(max-width: 500px) {
+  input[type=text] {
+    width: 300px;
+  }
+
+  button {
+    width: 325px;
+  }
+
+}
+
+@media(max-width: 400px) {
+  input[type=text] {
+    width: 230px;
+  }
+
+  button {
+    width: 254px;
+  }
+
+  .delete {
+    font-size: medium;
+    padding: 5px;
+  }
+
+}
+
+@media(max-width: 370px) {
+  .todo_list {
+    padding: 30px 2px;
+  }
 }
