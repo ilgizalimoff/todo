@@ -41,6 +41,7 @@ h1 {
 input[type=text] {
   width: 376px;
   padding: 10px;
+  outline: none;
 }
 
 button {
